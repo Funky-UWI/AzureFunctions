@@ -1,0 +1,10 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+https://download.pytorch.org/whl/cpu/torch-2.0.0%2Bcpu-cp310-cp310-linux_x86_64.whl
+https://download.pytorch.org/whl/cpu/torchvision-0.15.1%2Bcpu-cp310-cp310-linux_x86_64.whl
+# torch==2.0.0
+# torchvision==0.15.1
+segmentation-models-pytorch==0.3.2
